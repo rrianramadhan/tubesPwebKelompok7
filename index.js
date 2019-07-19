@@ -18,7 +18,7 @@ app.use(homeRouter);
 app.use('/product', productRouter);
 app.use('/user', userRouter);
 
-app.listen(3000, () => {
+app.listen(3207, () => {
     console.log('server started');
     sequelize.sync();
 })
